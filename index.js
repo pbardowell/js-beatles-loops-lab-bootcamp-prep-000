@@ -6,9 +6,8 @@ function theBeatlesPlay (musiciansArray, instrumentsArray) {
   return newArray
 }
 function johnLennonFacts(arrayFacts) {
-  arrayLength = arrayFacts.length
   counter = 0
-  while (counter < arrayLength) {
+  while (counter < arrayFacts.length) {
     arrayFacts[counter] = arrayFacts[counter] +"!!!"
   }
   return arrayFacts
