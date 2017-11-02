@@ -9,6 +9,7 @@ function johnLennonFacts(arrayFacts) {
   counter = 0
   while (counter < arrayFacts.length) {
     arrayFacts[counter] = arrayFacts[counter] +"!!!"
+    counter ++
   }
   return arrayFacts
 }
